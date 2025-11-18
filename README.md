@@ -14,10 +14,22 @@ Asystent głosowy analizujący pytania i generujący odpowiedzi.
 
 **Rezultat:** prosty voicebot obsługujący rozmowy użytkowników.
 
-# How to use it? 
+## Opis
+
+- Aplikacja umożliwia korzystanie z chatbota firmy elektronicznej do wsparcia klienta. Można zadawać pytania odnośnie produktów z zakresu elektroniki. 
+
+- Bot posługuje się językiem polskim. 
+
+- Użytkownik może zadać pytanie w postaci nagrania lub tekstowo, a asystent zawsze odpowie na wiadomość głosowo. 
+
+- Nagrania są zapisywane do Azure Blob Storage.
+
+
+# Uruchomienie programu
 
 ```
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt 
+python voice_bot.py
 ```

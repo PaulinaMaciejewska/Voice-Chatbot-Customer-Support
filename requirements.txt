@@ -1,0 +1,8 @@
+python-dotenv
+gradio
+openai
+soundfile
+azure.identity
+azure-cognitiveservices-speech
+azure-storage-blob
+azure-core

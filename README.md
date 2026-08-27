@@ -1,31 +1,30 @@
 # Voice Chatbot Customer Support
 
-## Cel
-Asystent głosowy analizujący pytania i generujący odpowiedzi.
+## Objective
+A voice assistant that analyzes questions and generates answers.
 
-## Zakres
-- Speech-to-Text i Text-to-Speech z Cognitive Services SDK.
+## Scope
+- Speech-to-Text and Text-to-Speech using the Cognitive Services SDK.
 - OpenAI completions (GPT-4o-mini).
-- Logowanie rozmów do Azure Blob.
-- Interfejs webowy – z gradio
-- Demo końcowe.
+- Conversation logging to Azure Blob.
+- Web interface – using Gradio.
 
-**Usługi:** Azure Speech SDK, Azure OpenAI SDK, Azure Blob Storage.
+**Services:** Azure Speech SDK, Azure OpenAI SDK, Azure Blob Storage.
 
-**Rezultat:** prosty voicebot obsługujący rozmowy użytkowników.
+**Outcome:** A simple voicebot handling user conversations.
 
-## Opis
+## Description
 
-- Aplikacja umożliwia korzystanie z chatbota firmy elektronicznej do wsparcia klienta. Można zadawać pytania odnośnie produktów z zakresu elektroniki. 
+- The application enables the use of an electronics company's customer support chatbot. Users can ask questions about electronic products.
 
-- Bot posługuje się językiem polskim. 
+- The bot communicates in Polish.
 
-- Użytkownik może zadać pytanie w postaci nagrania lub tekstowo, a asystent zawsze odpowie na wiadomość głosowo. 
+- Users can submit questions via audio recording or text, while the assistant always responds with a voice message.
 
-- Nagrania są zapisywane do Azure Blob Storage.
+- Recordings are saved to Azure Blob Storage.
 
 
-# Uruchomienie programu
+# Getting started
 
 ```
 python -m venv .venv
